@@ -19,7 +19,7 @@ This plugin was inspired by https://github.com/berendkleinhaneveld/sublime-image
 ![](./screenshots/my_image.png)
 ```
 
-![](https://github.com/Your_Repository_Name/demo.gif)
+![](https://github.com/Naerz/sublime-imgpaste-markdown/blob/main/demo.gif)
 
 ## Prerequisites
 
@@ -33,17 +33,22 @@ apt-get install xclip
 
 ```bash
 cd <USER_CONFIG>/sublime-text-3/Packages/
-git clone 
+git clone https://github.com/Naerz/sublime-imgpaste-markdown.git
 
 # Or
 
-git clone   <USER_CONFIG>/sublime-text-3/Packages/ 
+git clone https://github.com/Naerz/sublime-imgpaste-markdown.git <USER_CONFIG>/sublime-text-3/Packages/sublime-imgpaste-markdown/
 ```
 
 **Example**
 
 ```bash
+cd /home/kali/.conf/sublime-text-3/Packages/
+git clone https://github.com/Naerz/sublime-imgpaste-markdown.git
 
+# OR
+
+git clone https://github.com/Naerz/sublime-imgpaste-markdown.git /home/kali/.conf/sublime-text-3/Packages/sublime-imgpaste-markdown/
 ```
 
 ## Usage
