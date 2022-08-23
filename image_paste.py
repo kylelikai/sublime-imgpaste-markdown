@@ -37,10 +37,14 @@ class ImagePasteCommand(sublime_plugin.TextCommand):
 
             destination = destination_folder + name + ".png"
             linux_cmd = "xclip -selection clipboard -t image/png -o > %s" % str(destination)
+            linux_cmd_1 = "pngpaste %s" % str(destination)
+            
             file = "![](./screenshots/" + name + ".png)"
             text_to_insert = file
          
             os.system(linux_cmd)
+            os.system(linux_cmd_1)
+
             self.view.run_command("insert", {"characters": text_to_insert})
 
         def on_done(input_string):
